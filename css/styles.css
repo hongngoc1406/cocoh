@@ -1,0 +1,329 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);
+
+:root{
+  --text-color:#573939;
+  --primary-color:#A76E65;
+  --second-color:#E29857;
+  --background-color: #F5EBE1;
+  --star-color:#FFB903;
+  --white-color:#FFFFFF;
+  --green-logo:#466732;
+  --border-color:#a76e6541;
+  --color-price:#ED7630;
+/* Font */
+  --font-size-body: 16px;
+
+
+ 
+}
+.text-color{
+  color: var(--text-color);
+}
+.text-color-green{
+  color: var(--green-logo);
+}
+.star-color{
+  background-color: var(--star-color);
+}
+.background-color{
+  background-color: var(--background-color);
+}
+.background-green{
+  background-color: var(--green-logo);
+}
+.px-40px{
+  padding-left: 40px;
+  /* padding-right: 40px; */
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: #fff;
+}
+.slider {
+  margin-bottom: 30px;
+  position: relative;
+}
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1.15);
+  opacity: 1;
+  background: var(--background-color); /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to bottom, var(--primary-color), var(--second-color)); Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to bottom,var(--primary-color), var(--second-color)); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: var(--text-color) ;
+}
+.slider-card {
+  background: #fff;
+  padding: 0px 0px;
+  margin: 50px 15px 90px 15px;
+  border-radius: 10px;
+  box-shadow:3px 5px 5px -20px rgb(0 0 0 / 73%);
+  transform: scale(0.9);
+  transition: all 0.3s;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  opacity: 0.6;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}
+.slider-card img {
+  border-radius: 10px 10px 10px 10px;
+  
+}
+.slider-card p{
+  height: 50%;
+  color: var(--text-color);
+  /* background-image: linear-gradient(0deg,red,blue); */
+}
+.owl-nav .owl-prev {
+  position: absolute;
+  /* top: calc(50% - 25px); */
+  top: 32%;
+  left: -21px;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 11px;
+  /* background-color: #ff5e62; */
+  top: 32%;
+  right: -21px;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-nav .owl-next:active{
+  border:2px solid #910000;
+  background-color: #30f000
+}
+.owl-dots {
+  text-align: center;
+}
+.owl-dots .owl-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: #ccc !important;
+  margin-left: 3px;
+  margin-right: 3px;
+  outline: none;
+}
+.owl-dots .owl-dot.active {
+  background: #f44336 !important;
+}
+/* <gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></gwmw></gwmw><gwmw style="display:none;"></gwmw></gwmw></gwmw></gwmw><gwmw style="display:none;"> */
+
+/*==== Giá trị từ bạn =====*/
+.title{
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 150%;
+}
+
+
+
+.margin180px{margin-top: 180px;}
+.content3{
+  font-size: 25px;font-weight: 900;
+}
+
+.content3-a{
+  color: var(--white-color);
+  background-image: url(../images/Group\ 8984.png) ;
+}
+.content3-b{
+  color: var(--white-color);
+  background-image: url(../images/Group\ 8983.png ) ;
+}
+
+
+/* ====== SHOP ========== */
+.margin130px{
+  margin-top: 130px;
+}
+.shop_title{
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 145%;
+}
+.border-10{
+  border-radius: 10px;
+}
+
+/*  */
+.shop-banner_title{
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 135%;
+}  
+.shop-banner_subtitle{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 145%;
+} 
+.shop-banner_button{
+  padding: 8px 16px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.button-1{
+  background-color: var(--green-logo);
+  color: var(--white-color);
+}
+.button-2{
+  border: 1px solid var(--green-logo);
+  color: var(--green-logo);
+}
+.button-1:hover{
+  background-color: var(--star-color);
+}
+.button-2:hover{
+  background-color: var(--green-logo);
+  color: var(--white-color);
+}
+#uudai a{animation:all 1s;}
+
+#uudai a:hover{
+  transform: scale(102%);
+  -webkit-transform: scale(102%);
+  -moz-transform: scale(102%);
+  -ms-transform: scale(102%);
+  -o-transform: scale(102%);
+}
+.banchay-btn1{
+  background-color: var(--text-color);
+  color: var(--white-color);
+  border-radius: 5px;
+  border: 1px solid var(--text-color);
+}
+.banchay-btn2{
+  background-color: var(--background-color);
+  border-radius: 5px;
+  border: 1px solid var(--text-color);
+}
+.banchay-btn2:hover{
+  background-color: var(--text-color);
+  color: var(--white-color);
+}
+.banchay_tensp{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+}
+.banchay_tensp-1{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.banchay_gia{
+  color:var(--color-price)
+}
+.banchay_star-text{
+  font-size: 12px;
+}
+.banchay_star{
+  font-size: 12px;
+  color: var(--star-color);
+}
+
+
+.spkhac_ten{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%; text-align: center;
+}
+.spkhac-so1{
+  background-image: url(../images/Shop/SPkhac/product-line-art-coconut-bowls-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.spkhac-so2{
+  background-image: url(../images/Shop/SPkhac/product-line-bg-10.png);background-size: contain;background-repeat: no-repeat;}
+.spkhac-so3{
+  background-image: url(../images/Shop/SPkhac/product-line-bg-11.png);background-size: contain;background-repeat: no-repeat;}
+.spkhac-so4{
+  background-image: url(../images/Shop/SPkhac/product-line-bg-12.png);background-size: contain;background-repeat: no-repeat;}
+.spkhac-so5{
+  background-image: url(../images/Shop/SPkhac/product-line-bg-2.png);background-size: contain;background-repeat: no-repeat;}
+.spkhac-so6{
+  background-image: url(../images/Shop/SPkhac/product-line-bg-5.png);background-size: contain;background-repeat: no-repeat;}
+.spkhac-so7{
+  background-image: url(../images/Shop/SPkhac/product-line-bg-6.png);background-size: contain;background-repeat: no-repeat;}
+.spkhac-so8{
+  background-image: url(../images/Shop/SPkhac/product-line-bg-7.png);background-size: contain;background-repeat: no-repeat;}
+.spkhac-so9{
+  background-image: url(../images/Shop/SPkhac/product-line-bg-8.png);background-size: contain;background-repeat: no-repeat;}
+.spkhac-so10{
+  background-image: url(../images/Shop/SPkhac/product-line-bg-9.png);background-size: contain;background-repeat: no-repeat;}
+.spkhac-so11{
+  background-image: url(../images/Shop/SPkhac/product-line-bg-1.png);background-size: contain;background-repeat: no-repeat;}
+.spkhac-so12{
+  background-image: url(../images/Shop/SPkhac/product-line-variety-packs-bg.png);background-size: contain;background-repeat: no-repeat;}
+
+.banner2_bg{
+  background-color: var(--background-color);
+}
+.banner2_title{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 31px;
+}
+
+.chuyensp_title{
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 31px;
+}
+.chuyensp_doctiep{
+  font-weight: 500;
+}
+
+
+@media (max-width: 1250px) {
+  .shop-banner_title{
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 135%;
+  } 
+  .shop-banner_subtitle{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 145%;
+  } 
+  .banchay_tensp{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;}
+}
+@media (max-width: 992px) {
+  .shop-banner_title{
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 135%;
+  } 
+  
+}
+@media (max-width: 768px) {
+  .margin180px{margin-top: 150px;}
+  .title {font-size: 28px;font-weight: 900;}
+  .content3{font-size: 20px;font-weight: 900;}
+}
+@media (max-width: 576px) {}
+
